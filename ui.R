@@ -7,8 +7,9 @@ shinyUI(fluidPage(
 
   # Application title
   titlePanel("Income Predictor"),
-  p("Prediction using a linear regression on the NLSY79 data set from the United States National Longitudinal Survey of Youth."),
-  p("The predictive variables are: years of education, whether the person holds a professional degree, and years of work experience. Upon entering these three values the application predicts the hourly wage in US dollars."),
+  p("This application predicts a person's income based on three variables: years of education, whether the person holds a professional degree or not, and years of work experience."),
+  p("It does this by means of a linear regression on the NLSY79 data set from the United States National Longitudinal Survey of Youth."),
+  p("Upon entering the values for the predictive variables, the application predicts the hourly wage in 2002 US dollars."),
   br(),
   
   sidebarLayout(
